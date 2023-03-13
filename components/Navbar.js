@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Navbar() {
   return (
-    <header class="bg-[#FCF8F1] bg-opacity-30">
+    <header class="bg-opacity-30">
         <div class="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16 lg:h-20">
                 <div class="flex-shrink-0">
