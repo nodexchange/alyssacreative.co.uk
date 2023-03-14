@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 function Client() {
   return (
-    <header class="pb-6 lg:pb-0">
+    <section class="relative bg-gray-50 mb-36 lg:mb-10 pb-6 lg:pb-0">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <nav class="flex flex-col lg:flex-row items-center lg:justify-between h-16 lg:h-20">
                 <div class="mb-5 lg:mb-0 text-center lg:text-left">
                         <h1 className='font-bold text-xl md:text-2xl lg:text-4xl mb-5'>Our Clients</h1>
-                        <p className='mb-5 sm:text-xl text-gray-600 lg:max-w-[22rem] '>Several selected clients, who already believe in our service.</p>
+                        <p className='mb-5 text-base text-gray-600 lg:max-w-[22rem] '>Several selected clients, who already believe in our service.</p>
                 </div>
 
                 <div class="flex flex-wrap lg:gap-8 lg:mt-auto">
@@ -20,7 +20,7 @@ function Client() {
                 </div>
             </nav>
         </div>
-    </header>
+    </section>
   )
 }
 
