@@ -22,7 +22,7 @@ function Services() {
                         <div class="grid items-center max-w-4xl grid-cols-1 lg:grid-cols-2 mx-auto gap-x-5 gap-y-5 ">
                             <div className='text-center bg-white py-10 px-5 rounded-xl z-10'>
                                 <div className='mb-5'>
-                                    <Image class="object-contain h-10 mx-auto bg-blue-200" src="/box-search.png" width={50} height={50}/>
+                                    <Image class="object-contain h-10 mx-auto" src="/box-search.png" width={50} height={50}/>
                                 </div>
                                 <div>
                                     <h1 className='mb-5 font-bold max-w-[10rem] mx-auto'>Business Idea Planning</h1>
