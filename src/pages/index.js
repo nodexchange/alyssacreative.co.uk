@@ -3,6 +3,11 @@ import { Inter } from 'next/font/google'
 import Navbar from '../../components/Navbar'
 import Hero from '../../components/Hero'
 import Client from '../../components/Client'
+import Services from '../../components/Services'
+import About from '../../components/About'
+import Pricing from '../../components/Pricing'
+import News from '../../components/News'
+import Footer from '../../components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,10 +22,15 @@ export default function Home() {
       </Head>
       <main className="">
 
-        <div class="bg-white">
+        <div class="bg-gray-50">
           <Navbar />
           <Hero />
           <Client/>
+          <Services/>
+          <About/>
+          <Pricing />
+          <News/>
+          <Footer/>
         </div>
 
       </main>

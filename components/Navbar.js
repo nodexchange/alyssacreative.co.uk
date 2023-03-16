@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Navbar() {
   return (
-    <header class="bg-opacity-30z-30">
+    <header class="bg-opacity-30z-30 bg-gray-50">
         <div class="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16 lg:h-20">
                 <div class="flex-shrink-0">
@@ -25,17 +25,17 @@ function Navbar() {
                 </button>
 
                 <div class="hidden lg:flex lg:items-center lg:justify-center lg:space-x-10">
-                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80"> Home </a>
+                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-70"> Home </a>
 
-                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80"> What We Do </a>
+                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-70"> What We Do </a>
 
-                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80"> Service </a>
+                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-70"> Service </a>
 
-                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80"> Project </a>
+                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-70"> Project </a>
 
-                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80"> Blog </a>
+                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-70"> Blog </a>
 
-                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80"> Contact </a>
+                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-70"> Contact </a>
                 </div>
 
             </div>
