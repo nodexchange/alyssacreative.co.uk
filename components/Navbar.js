@@ -25,17 +25,17 @@ function Navbar() {
                 </button>
 
                 <div class="hidden lg:flex lg:items-center lg:justify-center lg:space-x-10">
-                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80"> Home </a>
+                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-70"> Home </a>
 
-                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80"> What We Do </a>
+                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-70"> What We Do </a>
 
-                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80"> Service </a>
+                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-70"> Service </a>
 
-                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80"> Project </a>
+                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-70"> Project </a>
 
-                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80"> Blog </a>
+                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-70"> Blog </a>
 
-                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-80"> Contact </a>
+                    <a href="#" title="" class="text-base text-black transition-all duration-200 hover:text-opacity-70"> Contact </a>
                 </div>
 
             </div>
