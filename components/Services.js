@@ -11,12 +11,14 @@ function Services() {
             <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 z-10">
                 <div class="grid items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 xl:grid-cols-6 sm:gap-x-12 gap-y-12 ">
                     <div class="lg:col-span-3 text-center lg:text-left z-10">
-                        <h2 class="text-xl md:text-2xl lg:text-4xl font-bold leading-tight text-gray-800 lg:leading-tight">
-                            How can we help <br/> your Business ?
-                        </h2>
-                        <p class="mt-6 text-base text-gray-600 max-w-[25rem]">
-                            We build readymade websites, mobile applications, and elaborate online business services.
-                        </p>
+                        <Fade left>
+                            <h2 class="text-xl md:text-2xl lg:text-4xl font-bold leading-tight text-gray-800 lg:leading-tight">
+                                How can we help <br/> your Business ?
+                            </h2>
+                            <p class="mt-6 text-base text-gray-600 max-w-[25rem]">
+                                We build readymade websites, mobile applications, and elaborate online business services.
+                            </p>
+                        </Fade>
                     </div>
 
                     <div class="lg:col-span-2 xl:col-span-3 ">
