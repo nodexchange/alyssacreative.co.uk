@@ -11,7 +11,7 @@ function Client() {
                         <p className='mb-5 text-base text-gray-600 lg:max-w-[22rem] '>Several selected clients, who already believe in our service.</p>
                 </div>
 
-                <div class="flex flex-wrap lg:gap-8 lg:mt-auto">
+                <div className="flex flex-wrap lg:gap-8 lg:mt-auto">
                     <img className="w-32" src="https://www.vectorlogo.zone/logos/google/google-ar21.svg" alt="google" />
                     <img className="w-32" src="https://www.vectorlogo.zone/logos/airbnb/airbnb-ar21.svg" alt="airbnb" />
                     <img className="w-32" src="https://www.vectorlogo.zone/logos/amazon/amazon-ar21.svg" alt="amazon" />
