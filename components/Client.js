@@ -12,11 +12,11 @@ function Client() {
                 </div>
 
                 <div className="flex flex-wrap lg:gap-8 lg:mt-auto">
-                    <img className="w-32" src="https://www.vectorlogo.zone/logos/google/google-ar21.svg" alt="google" />
-                    <img className="w-32" src="https://www.vectorlogo.zone/logos/airbnb/airbnb-ar21.svg" alt="airbnb" />
-                    <img className="w-32" src="https://www.vectorlogo.zone/logos/amazon/amazon-ar21.svg" alt="amazon" />
-                    <img className="w-32" src="https://www.vectorlogo.zone/logos/netlify/netlify-ar21.svg" alt="netlify" />
-                    <img className="w-32" src="https://www.vectorlogo.zone/logos/xbox/xbox-ar21.svg" alt="xbox" />
+                    <Image width={100} height={100} className="w-32" src="https://www.vectorlogo.zone/logos/google/google-ar21.svg" alt="google" />
+                    <Image width={100} height={100} className="w-32" src="https://www.vectorlogo.zone/logos/airbnb/airbnb-ar21.svg" alt="airbnb" />
+                    <Image width={100} height={100} className="w-32" src="https://www.vectorlogo.zone/logos/amazon/amazon-ar21.svg" alt="amazon" />
+                    <Image width={100} height={100} className="w-32" src="https://www.vectorlogo.zone/logos/netlify/netlify-ar21.svg" alt="netlify" />
+                    <Image width={100} height={100} className="w-32" src="https://www.vectorlogo.zone/logos/xbox/xbox-ar21.svg" alt="xbox" />
                 </div>
             </nav>
         </div>
