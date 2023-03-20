@@ -26,7 +26,7 @@ function Services() {
                             {/* <Fade left> */}
                                 <div className='text-center bg-white py-10 px-5 rounded-xl z-10'>
                                     <div className='mb-5'>
-                                        <Image className="object-contain h-10 mx-auto" src="/box-search.png" width={50} height={50}/>
+                                        <Image className="object-contain h-10 mx-auto" alt='icon' src="/box-search.png" width={50} height={50}/>
                                     </div>
                                     <div>
                                         <h1 className='mb-5 font-bold max-w-[10rem] mx-auto'>Business Idea Planning</h1>
@@ -38,7 +38,7 @@ function Services() {
                             {/* <Fade right> */}
                                 <div className='text-center bg-white py-10 px-5 rounded-xl relative z-10'>
                                     <div className='mb-5'>
-                                        <Image class="object-contain w-full h-10 mx-auto" src="/empty-wallet.png" width={50} height={50}/>
+                                        <Image class="object-contain w-full h-10 mx-auto" alt='icon' src="/empty-wallet.png" width={50} height={50}/>
                                     </div>
                                     <div className='text-center'>
                                         <h1 className='mb-5 font-bold max-w-[10rem] mx-auto'>Financial Planning System</h1>
@@ -49,7 +49,7 @@ function Services() {
                             <Fade left> */}
                                 <div className='text-center bg-white py-10 px-5 rounded-xl z-10'>
                                     <div className='mb-5'>
-                                        <Image class="object-contain w-full h-10 mx-auto" src="/code-1.png" width={50} height={50}/>
+                                        <Image class="object-contain w-full h-10 mx-auto" alt='icon' src="/code-1.png" width={50} height={50}/>
                                     </div>
                                     <div>
                                         <h1 className='mb-5 font-bold max-w-[10rem] mx-auto'>Development Website and App</h1>
@@ -61,7 +61,7 @@ function Services() {
                             {/* <Fade right> */}
                                 <div className='text-center bg-white py-10 px-5 rounded-xl relative z-10'>
                                     <div className='mb-5'>
-                                        <Image class="object-contain w-full h-10 mx-auto" src="/chart-square.png" width={50} height={50}/>
+                                        <Image class="object-contain w-full h-10 mx-auto" alt='icon' src="/chart-square.png" width={50} height={50}/>
                                     </div>
                                     <div>
                                         <h1 className='mb-5 font-bold max-w-[10rem] mx-auto'>Market Analysis Project</h1>
