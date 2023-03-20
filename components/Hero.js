@@ -22,7 +22,7 @@ function Hero() {
                     </div>
 
                     <div className='hidden lg:block'>
-                        <img className="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png" alt="img" />
+                        <Image width={400} height={200} className="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png" alt="img" />
                     </div>
                 </div>
             </div>
