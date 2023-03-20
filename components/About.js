@@ -1,5 +1,5 @@
 import React from 'react'
-import Fade from 'react-reveal';
+// import Fade from 'react-reveal';
 
 function About() {
   return (
@@ -7,14 +7,14 @@ function About() {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="grid items-stretch gap-y-10 md:grid-cols-2 md:gap-x-20 relative">
                 <div className="relative grid grid-cols-2 gap-6 mt-10 md:mt-0">
-                        <Fade left>
+                        {/* <Fade left> */}
                             <div className="overflow-hidden aspect-w-3 aspect-h-4">
                                 <img className="object-cover object-top origin-top scale-150" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/2/team-work.jpg" alt="img" />
                             </div>
-                        </Fade>
+                        {/* </Fade> */}
 
                         <div className="relative">
-                            <Fade left>
+                            {/* <Fade left> */}
                                 <div className="h-full overflow-hidden aspect-w-3 aspect-h-4">
                                     <img className="object-cover scale-150 lg:origin-bottom-right" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/2/woman-working-on-laptop.jpg" alt="img" />
                                 </div>
@@ -27,7 +27,7 @@ function About() {
                                         </svg>
                                     </button>
                                 </div>
-                            </Fade>
+                            {/* </Fade> */}
                         </div>
 
                         <div className="absolute -translate-x-1/2 left-1/2 -top-16">
@@ -37,11 +37,11 @@ function About() {
 
                 <div className="flex flex-col items-start xl:pl-16 relative">
                     <div className='bg-blue-50 w-[10rem] h-[8rem] left-0 absolute rounded-br-[5rem]' />
-                    <Fade right>
+                    {/* <Fade right> */}
                         <h2 className="text-xl md:text-2xl lg:text-4xl font-bold leading-tight text-gray-800 z-10">Great Digital Product <br/> Agency since 2016</h2>
                         <p className="mt-4 text-base leading-relaxed text-gray-600 z-10">Our Business Plan is a written document describing a company's core business activites, Objectives, and how it plans to achieve its goals. Our goal is to provide our client high quality Product with modern idea accordingly their budgets and according thir reuirements.</p>
 
-                    </Fade>
+                    {/* </Fade> */}
 
                 </div>
             </div>

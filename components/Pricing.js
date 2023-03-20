@@ -1,5 +1,5 @@
 import React from 'react'
-import Fade from 'react-reveal';
+// import Fade from 'react-reveal';
 
 function Pricing() {
   return (
@@ -11,7 +11,7 @@ function Pricing() {
             </div>
 
             <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 text-center lg:max-w-full lg:mt-16 lg:grid-cols-3">
-                <Fade left>
+                {/* <Fade left> */}
                     <div className="overflow-hidden bg-white border-2 border-gray-100 rounded-md">
                         <div className="p-8 xl:px-12">
                             <div className="inline-block px-4 py-2 bg-gray-100 rounded-full">
@@ -61,8 +61,8 @@ function Pricing() {
                             <p className="mt-4 text-sm text-gray-500">14 Days Moneyback Guarantee</p>
                         </div>
                     </div>
-                </Fade>
-                <Fade bottom>
+                {/* </Fade> */}
+                {/* <Fade bottom> */}
                     <div className="overflow-hidden bg-white border-2 border-gray-100 rounded-md shadow-lg">
                         <div className="p-8 xl:px-12">
                             <div className="inline-block px-4 py-2 bg-blue-100 rounded-full">
@@ -112,8 +112,8 @@ function Pricing() {
                             <p className="mt-4 text-sm text-gray-500">14 Days Moneyback Guarantee</p>
                         </div>
                     </div>
-                </Fade>
-                <Fade right>
+                {/* </Fade>
+                <Fade right> */}
                     <div className="overflow-hidden bg-white border-2 border-gray-100 rounded-md">
                         <div className="p-8 xl:px-12">
                             <div className="inline-block px-4 py-2 bg-gray-100 rounded-full">
@@ -163,7 +163,7 @@ function Pricing() {
                             <p className="mt-4 text-sm text-gray-500">14 Days Moneyback Guarantee</p>
                         </div>
                     </div>
-                </Fade>
+                {/* </Fade> */}
             </div>
         </div>
     </section>
