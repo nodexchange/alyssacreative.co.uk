@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 // import Fade from 'react-reveal';
 
 function About() {
@@ -9,14 +10,15 @@ function About() {
                 <div className="relative grid grid-cols-2 gap-6 mt-10 md:mt-0">
                         {/* <Fade left> */}
                             <div className="overflow-hidden aspect-w-3 aspect-h-4">
-                                <img className="object-cover object-top origin-top scale-150" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/2/team-work.jpg" alt="img" />
+                            
+                                <Image width={400} height={200} className="object-cover object-top origin-top scale-150" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/2/team-work.jpg" alt="img" />
                             </div>
                         {/* </Fade> */}
 
                         <div className="relative">
                             {/* <Fade left> */}
                                 <div className="h-full overflow-hidden aspect-w-3 aspect-h-4">
-                                    <img className="object-cover scale-150 lg:origin-bottom-right" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/2/woman-working-on-laptop.jpg" alt="img" />
+                                    <Image width={400} height={200} className="object-cover scale-150 lg:origin-bottom-right" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/2/woman-working-on-laptop.jpg" alt="img" />
                                 </div>
                             
 
@@ -31,7 +33,7 @@ function About() {
                         </div>
 
                         <div className="absolute -translate-x-1/2 left-1/2 -top-16">
-                            <img className="w-32 h-32" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/2/round-text.png" alt="img" />
+                            <Image width={100} height={100} className="w-32 h-32" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/2/round-text.png" alt="img" />
                         </div>
                 </div>
 
