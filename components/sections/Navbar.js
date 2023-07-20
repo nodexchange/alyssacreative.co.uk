@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Logo from '@/images/logo.jpg';
 import { Button } from '@components';
+import Link from 'next/link';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,25 +32,29 @@ function Navbar() {
     <header
       className={`${
         showShadow ? 'drop-shadow-md' : ''
-      } bg-opacity-30z-30 bg-gray-50 fixed left-0 right-0 z-30`}>
+      } bg-opacity-30z-30 bg-acblue fixed left-0 right-0 z-30`}>
       <div className="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-20">
-          <div className="flex-shrink-0">
-            <a href="#" title="" className="flex text-xl">
-              <span className="font-bold">A</span>+&nbsp;Studio
-            </a>
+        <div className="flex items-center justify-between h-8 lg:h-20">
+          <div className="flex-shrink-0 pt-10 lg:pt-10 scale-50 lg:scale-100">
+            <Link href="/">
+            <Image
+                width={100}
+                height={100}
+                src={Logo}
+                alt="Alyssa Creative Company Logo"
+                />
+              </Link>
           </div>
 
           {/* <div class={`flex bg-blue-700 drop-shadow-xl flex-col mt-[22rem] px-24 py-5 space-y-5 lg:drop-shadow-none lg:bg-gray-50 lg:space-y-0 lg:py-0  lg:px-0 lg:flex-row lg:mt-0 lg:items-center lg:justify-center lg:space-x-10`}> */}
-          {/* Home About Us Services Clients Contact Us */}
           <div
             className={`flex bg-acblue drop-shadow-xl flex-col mt-[22rem] px-24 py-5 space-y-5   ${
-              isOpen ? 'opcaity-1' : 'opacity-0'
-            } duration-1000 ease-in-out lg:drop-shadow-none lg:translate-y-0 lg:bg-gray-50 lg:space-y-0 lg:py-0  lg:px-0 lg:flex-row lg:mt-0 lg:items-center lg:justify-center lg:space-x-10`}>
+              isOpen ? 'opcaity-100' : 'opacity-0'
+            } duration-1000 ease-in-out lg:drop-shadow-none lg:translate-y-0 lg:opacity-100 lg:space-y-0 lg:py-0  lg:px-0 lg:flex-row lg:mt-0 lg:items-center lg:justify-center lg:space-x-10`}>
             <a
               href="#"
               title=""
-              className="text-base text-white lg:text-black transition-all duration-200 hover:text-opacity-70">
+              className="text-base text-white lg:text-white transition-all duration-200 hover:text-opacity-70">
               {' '}
               Home{' '}
             </a>
@@ -56,7 +62,7 @@ function Navbar() {
             <a
               href="#"
               title=""
-              className="text-base text-white lg:text-black transition-all duration-200 hover:text-opacity-70">
+              className="text-base text-white lg:text-white transition-all duration-200 hover:text-opacity-70">
               {' '}
               About us{' '}
             </a>
@@ -64,7 +70,7 @@ function Navbar() {
             <a
               href="#"
               title=""
-              className="text-base text-white lg:text-black transition-all duration-200 hover:text-opacity-70">
+              className="text-base text-white lg:text-white transition-all duration-200 hover:text-opacity-70">
               {' '}
               Services{' '}
             </a>
@@ -72,7 +78,7 @@ function Navbar() {
             <a
               href="#"
               title=""
-              className="text-base text-white lg:text-black transition-all duration-200 hover:text-opacity-70">
+              className="text-base text-white lg:text-white transition-all duration-200 hover:text-opacity-70">
               {' '}
               Clients{' '}
             </a>
@@ -80,7 +86,7 @@ function Navbar() {
             <a
               href="#"
               title=""
-              className="text-base text-white lg:text-black transition-all duration-200 hover:text-opacity-70">
+              className="text-base text-white lg:text-white transition-all duration-200 hover:text-opacity-70">
               {' '}
               Contact{' '}
             </a>
@@ -89,7 +95,7 @@ function Navbar() {
 
           <button
             type="button"
-            class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
+            class="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-500 hover:bg-gray-500"
             onClick={toggleMenu}>
             {/* <!-- Menu open: "hidden", Menu closed: "block" --> */}
             {isOpen ? (

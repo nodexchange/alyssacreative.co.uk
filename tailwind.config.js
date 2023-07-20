@@ -18,6 +18,7 @@ module.exports = {
         acblue: {
           DEFAULT: "#363854",
           light: "#9c93a9",
+          transparent: '#525473',
           dark: "#48444e",
           blue: "#551c0c",
         }
