@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import Navbar from '../../components/Navbar'
-import Hero from '../../components/Hero'
-import Client from '../../components/Client'
-import Services from '../../components/Services'
-import About from '../../components/About'
-import Pricing from '../../components/Pricing'
-import News from '../../components/News'
-import Footer from '../../components/Footer'
+import Navbar from '@sections/Navbar'
+import Hero from '@sections/Hero'
+import Client from '@sections/Client'
+import Services from '@sections/Services'
+import About from '@sections/About'
+import Pricing from '@sections/Pricing'
+import News from '@sections/News'
+import Footer from '@sections/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
