@@ -1,83 +1,55 @@
 import React from 'react'
-import Image from 'next/image'
 // import Fade from 'react-reveal';
-
+import { Tile } from '@components';
+import TileItem from '../TileItem';
 function Services() {
   return (
-    <div>
-        {/* px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 */}
-        <section className="py-10 bg-gray-50 sm:py-16 lg:py-24 relative">
-            
-            <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 z-10">
-                <div className="grid items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 xl:grid-cols-6 sm:gap-x-12 gap-y-12 ">
-                    <div className="lg:col-span-3 text-center lg:text-left z-10">
-                        {/* <Fade left> */}
-                            <h2 className="text-xl md:text-2xl lg:text-4xl font-bold leading-tight text-gray-800 lg:leading-tight">
-                                How can we help <br/> your Business ?
-                            </h2>
-                            <p className="mt-6 text-base text-gray-600 max-w-[25rem]">
-                                We build readymade websites, mobile applications, and elaborate online business services.
-                            </p>
-                        {/* </Fade> */}
-                    </div>
-
-                    <div className="lg:col-span-2 xl:col-span-3 ">
-                        <div className="grid items-center max-w-4xl grid-cols-1 lg:grid-cols-2 mx-auto gap-x-5 gap-y-5 ">
-                            {/* <Fade left> */}
-                                <div className='text-center bg-white py-10 px-5 rounded-xl z-10'>
-                                    <div className='mb-5'>
-                                        <Image className="object-contain h-10 mx-auto" alt='icon' src="/box-search.png" width={50} height={50}/>
-                                    </div>
-                                    <div>
-                                        <h1 className='mb-5 font-bold max-w-[10rem] mx-auto'>Business Idea Planning</h1>
-                                        <p className='text-gray-600 text-base'>We present you a proposal and discuss niffty-gritty like</p>
-                                    </div>
-                                </div>
-                            {/* </Fade> */}
-                            {/* up */}
-                            {/* <Fade right> */}
-                                <div className='text-center bg-white py-10 px-5 rounded-xl relative z-10'>
-                                    <div className='mb-5'>
-                                        <Image class="object-contain w-full h-10 mx-auto" alt='icon' src="/empty-wallet.png" width={50} height={50}/>
-                                    </div>
-                                    <div className='text-center'>
-                                        <h1 className='mb-5 font-bold max-w-[10rem] mx-auto'>Financial Planning System</h1>
-                                        <p className='text-gray-600 text-base'>Protocols apart from aengage models, pricing billing</p>
-                                    </div>
-                                </div>
-                            {/* </Fade>
-                            <Fade left> */}
-                                <div className='text-center bg-white py-10 px-5 rounded-xl z-10'>
-                                    <div className='mb-5'>
-                                        <Image class="object-contain w-full h-10 mx-auto" alt='icon' src="/code-1.png" width={50} height={50}/>
-                                    </div>
-                                    <div>
-                                        <h1 className='mb-5 font-bold max-w-[10rem] mx-auto'>Development Website and App</h1>
-                                        <p className='text-gray-600 text-base'>Communication protocols apart from engagement models</p>
-                                    </div>
-                                </div>
-                            {/* </Fade> */}
-                            {/* up */}
-                            {/* <Fade right> */}
-                                <div className='text-center bg-white py-10 px-5 rounded-xl relative z-10'>
-                                    <div className='mb-5'>
-                                        <Image class="object-contain w-full h-10 mx-auto" alt='icon' src="/chart-square.png" width={50} height={50}/>
-                                    </div>
-                                    <div>
-                                        <h1 className='mb-5 font-bold max-w-[10rem] mx-auto'>Market Analysis Project</h1>
-                                        <p className='text-gray-600 text-base'>Protocols apart from aengage models, pricing billing</p>
-                                    </div>
-                                </div>
-                            {/* </Fade> */}
-                        <div className='bg-blue-50 w-[50rem] lg:w-[60rem]  xl:w-[65rem] h-[30rem] right-0 absolute rounded-tl-[5rem]' />
-                        </div>
-                    </div>
-                </div>
+    <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div className="max-w-2xl mx-auto text-center">
+                <h2 className="leading-tight text-black font-bold text-xl md:text-2xl lg:text-4xl">Digital Marketing
+and Design Services</h2>
+                {/* <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600"></p> */}
             </div>
-            
-        </section>
 
-    </div>
+            <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 text-center lg:max-w-full lg:mt-16 lg:grid-cols-3">
+                {/* <Fade left> */}
+                    <Tile title="Digital Marketing">
+                        <TileItem title="Blogging" />
+                        <TileItem title="E-newsletters" />
+                        <TileItem title="Social Media Management" />
+                        <TileItem title="Management" />
+                        <TileItem title="Audience Growth" />
+                        <TileItem title="Copywriting" />
+                        <TileItem title="Marketing Strategy" />
+                        <TileItem title="Brand Management" />
+                    </Tile>
+                    <Tile title="Website Management">
+                        <TileItem title="Search Engine Optimisation (SEO)" /> 
+                        <TileItem title="Content generation" /> 
+                        <TileItem title="Website promotion" /> 
+                        <TileItem title="Digital marketing" /> 
+                        <TileItem title="Analytics" />
+                        <TileItem title="Social Media Integration" />
+                        <TileItem title="Content Management System" />
+                        <TileItem title="User Experience (UX)" />
+                    </Tile>
+                    <Tile title="Graphic Design">
+                        <TileItem title="Logo Design" />
+                        <TileItem title="Branding" />
+                        <TileItem title="Web Design" />
+                        <TileItem title="Photography" />
+                        <TileItem title="Brochure" />
+                        <TileItem title="Flyers" />
+                        <TileItem title="Business Cards & Print" />
+                        <TileItem title="Guide Design" />
+                    </Tile>
+                {/* </Fade> */}
+            </div>
+        </div>
+    </section>
+
+
   )
 }
 

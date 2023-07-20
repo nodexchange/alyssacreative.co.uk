@@ -35,7 +35,7 @@ function Navbar() {
       } bg-opacity-30z-30 bg-acblue fixed left-0 right-0 z-30`}>
       <div className="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-8 lg:h-20">
-          <div className="flex-shrink-0 pt-10 lg:pt-10 scale-50 lg:scale-100">
+          <div className="flex-shrink-0 pt-10 lg:pt-8 scale-50 lg:scale-100">
             <Link href="/">
             <Image
                 width={100}

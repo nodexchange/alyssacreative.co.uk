@@ -1,4 +1,7 @@
 import React from 'react'
+import Link from 'next/link';
+import Image from 'next/image';
+import Logo from '@/images/logo.jpg';
 
 function Footer() {
   return (
@@ -7,11 +10,16 @@ function Footer() {
         <hr className=" mb-10 border-gray-200" />
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-y-12 gap-x-8 xl:gap-x-12">
                 <div className="col-span-2 md:col-span-4 xl:pr-8">
-                    <a href="#" title="" className="flex text-xl">
-                        <span className='font-bold'>A</span>+&nbsp;Studio
-                    </a>
+                <Link href="/">
+            <Image
+                width={100}
+                height={100}
+                src={Logo}
+                alt="Alyssa Creative Company Logo"
+                />
+              </Link>
 
-                    <p className="text-base leading-relaxed text-gray-600 mt-7">Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.</p>
+                    <p className="text-base leading-relaxed text-gray-600 mt-7">Leading digital agency with solid design and development expertise. We provide individualised and customised services to you; whether it is providing social media management, social media coaching, photography, or graphic design.</p>
 
                 </div>
 
@@ -91,7 +99,7 @@ function Footer() {
             <hr className="mt-16 mb-10 border-gray-200" />
 
             <div className="sm:flex sm:items-center sm:justify-between">
-                <p className="text-sm text-gray-600">© Copyright 2023, All Rights Reserved by Baraka Danny</p>
+                <p className="text-sm text-gray-600">© Copyright 2023, All Rights Reserved by AS Creative. Registered in England and Wales, United Kingdom.</p>
 
                 <ul className="flex items-center mt-5 space-x-3 md:order-3 sm:mt-0">
                     <li>
