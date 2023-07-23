@@ -1,10 +1,9 @@
 import React from 'react'
-import Image from 'next/image'
 
 function Hero() {
   return (
     <div>
-        <section className="py-16 bg-acblue text-center lg:text-left sm:py-16 lg:py-24">
+        <section className={`py-16 bg-acblue text-center lg:text-left sm:py-16 lg:py-24 lg:bg-hero lg:bg-cover`}>
             <div className="px-4 mt-16 lg:mt-0 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
                     <div>
@@ -24,10 +23,6 @@ push in the right direction.
                         <div className="mt-10 ">
                             <a href="#" title="" class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-acblue-light hover:bg-acblue-dark focus:bg-acblue-dark" role="button">LEARN MORE</a>
                         </div>
-                    </div>
-
-                    <div className='hidden lg:block'>
-                        <Image width={400} height={200} className="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png" alt="img" />
                     </div>
                 </div>
             </div>

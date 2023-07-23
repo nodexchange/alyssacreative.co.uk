@@ -14,6 +14,10 @@ module.exports = {
         "mtl-bold": ["PPNeueMontreal-Bold"],
         "mtl-medium": ["PPNeueMontreal-Medium"],
       },
+      backgroundImage:{
+        'hero': 'url(/images/hero.jpg)',
+        'testimonials': 'url(/images/testimonials.jpg)'
+      },
       colors: {
         acblue: {
           DEFAULT: "#363854",

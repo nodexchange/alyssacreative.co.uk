@@ -1,13 +1,18 @@
-const Tile = ({title, children}) => (
+import Image from 'next/image'
+
+const Tile = ({title, img, alt, children}) => (
   <div className="overflow-hidden bg-white border-2 border-gray-100 rounded-md">
                         <div className="p-8 xl:px-12">
-                            <div className="inline-block px-4 py-2 bg-gray-100 rounded-full">
+                            <div>
+                                <Image width={400} height={200} className="w-full" src={img} alt={alt} />
+                            </div>
+                            <div className="inline-block px-4 py-2 bg-gray-100 rounded-full mt-4">
                                 <h3 className="text-sm font-semibold text-gray-900">{title}</h3>
                             </div>
                             {/* <p className="text-5xl font-bold text-black mt-7">$29</p> */}
                             {/* <p className="mt-3 text-base text-gray-600">One-time payment</p> */}
 
-                            <ul className="inline-flex flex-col items-start space-y-5 text-left mt-9">
+                            <ul className="inline-flex flex-col items-start space-y-2 text-left mt-4">
                                 {children}
                             </ul>
 

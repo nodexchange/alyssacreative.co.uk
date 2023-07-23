@@ -2,6 +2,10 @@ import React from 'react'
 // import Fade from 'react-reveal';
 import { Tile } from '@components';
 import TileItem from '../TileItem';
+import Service1Img from '@/images/service1.jpg';
+import Service2Img from '@/images/service2.jpg';
+import Service3Img from '@/images/service3.jpg';
+
 function Services() {
   return (
     <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
@@ -14,7 +18,7 @@ and Design Services</h2>
 
             <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 text-center lg:max-w-full lg:mt-16 lg:grid-cols-3">
                 {/* <Fade left> */}
-                    <Tile title="Digital Marketing">
+                    <Tile title="Digital Marketing" img={Service1Img} alt="">
                         <TileItem title="Blogging" />
                         <TileItem title="E-newsletters" />
                         <TileItem title="Social Media Management" />
@@ -24,7 +28,7 @@ and Design Services</h2>
                         <TileItem title="Marketing Strategy" />
                         <TileItem title="Brand Management" />
                     </Tile>
-                    <Tile title="Website Management">
+                    <Tile title="Website Management" img={Service2Img} alt="">
                         <TileItem title="Search Engine Optimisation (SEO)" /> 
                         <TileItem title="Content generation" /> 
                         <TileItem title="Website promotion" /> 
@@ -34,7 +38,7 @@ and Design Services</h2>
                         <TileItem title="Content Management System" />
                         <TileItem title="User Experience (UX)" />
                     </Tile>
-                    <Tile title="Graphic Design">
+                    <Tile title="Graphic Design" img={Service3Img} alt="">
                         <TileItem title="Logo Design" />
                         <TileItem title="Branding" />
                         <TileItem title="Web Design" />
