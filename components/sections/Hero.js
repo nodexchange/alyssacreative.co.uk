@@ -21,7 +21,7 @@ push in the right direction.
 </p>
 
                         <div className="mt-10 ">
-                            <a href="#" title="" class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-acblue-light hover:bg-acblue-dark focus:bg-acblue-dark" role="button">LEARN MORE</a>
+                            <a href="#" title="" className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-acblue-light hover:bg-acblue-dark focus:bg-acblue-dark" role="button">LEARN MORE</a>
                         </div>
                     </div>
                 </div>

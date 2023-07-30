@@ -11,20 +11,8 @@ function Contact() {
   return (
     <section id="Contact" className="py-10 bg-gray-50 sm:py-16 lg:py-24">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="grid items-stretch gap-y-10 md:grid-cols-2 md:gap-x-20 relative">
-          <div className="flex flex-wrap lg:gap-8 lg:mt-auto">
-            <Image
-              width={400}
-              height={200}
-              className="w-full"
-              src={ClientImg}
-              alt="An image displaying a social media feed on a mobile phone managed by AS Creative."
-            />
-          </div>
-
-          <div className="flex flex-col items-start xl:pl-16 relative">
-            <MyForm handleSubmit={handleSubmit} submitting={state.submitting} succeeded={state.succeeded} />
-          </div>
+        <div className="grid items-stretch gap-y-10 md:grid-cols-1 md:gap-x-20 relative">
+          <MyForm handleSubmit={handleSubmit} submitting={state.submitting} succeeded={state.succeeded} />
         </div>
       </div>
     </section>

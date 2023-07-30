@@ -93,7 +93,7 @@ function Navbar() {
 
           <button
             type="button"
-            class="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-500 hover:bg-gray-500"
+            className="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-500 hover:bg-gray-500"
             onClick={toggleMenu}>
             {/* <!-- Menu open: "hidden", Menu closed: "block" --> */}
             {isOpen ? (

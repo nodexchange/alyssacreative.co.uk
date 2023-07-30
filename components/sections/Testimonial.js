@@ -20,7 +20,7 @@ potential of your brands' growth
 current clients are saying about us!
             </p>
             <div className="mt-10 ">
-              <Link href="/clients" title="Clients" class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-acblue-light hover:bg-acblue-dark focus:bg-acblue-dark" role="button">Clients</Link>
+              <Link href="/clients" title="Clients" className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-acblue-light hover:bg-acblue-dark focus:bg-acblue-dark" role="button">Clients</Link>
             </div>
             {/* </Fade> */}
           </div>
