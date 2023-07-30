@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
 // import Fade from 'react-reveal';
 
 function Testimonial() {
   return (
-    <section className="py-10 bg-acblue sm:py-16 lg:py-24 lg:bg-testimonials lg:bg-cover">
+    <section id="testimonial" className="py-10 bg-acblue sm:py-16 lg:py-24 lg:bg-testimonials lg:bg-cover">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid items-stretch gap-y-10 md:grid-cols-2 md:gap-x-10 relative">
           <div className="flex flex-col items-start xl:pl-16 relative">
@@ -19,7 +20,7 @@ potential of your brands' growth
 current clients are saying about us!
             </p>
             <div className="mt-10 ">
-              <a href="#" title="" class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-acblue-light hover:bg-acblue-dark focus:bg-acblue-dark" role="button">Testimonials</a>
+              <Link href="/clients" title="Clients" class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-acblue-light hover:bg-acblue-dark focus:bg-acblue-dark" role="button">Clients</Link>
             </div>
             {/* </Fade> */}
           </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function News() {
   return (
-    <section className="py-10 bg-gray-50 sm:py-16 lg:py-20">
+    <section id="news" className="py-10 bg-gray-50 sm:py-16 lg:py-20">
         <div className="relative max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
             <div className="relative text-center bg-blue-50 py-10 sm:py-24 sm:px-10 rounded-[3rem] lg:flex lg:items-center lg:justify-between lg:text-left z-10">
                 <div>

@@ -8,7 +8,7 @@ import Service3Img from '@/images/service3.jpg';
 
 function Services() {
   return (
-    <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
+    <section id="services" className="py-10 bg-gray-50 sm:py-16 lg:py-24">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="max-w-2xl mx-auto text-center">
                 <h2 className="leading-tight text-black font-bold text-xl md:text-2xl lg:text-4xl">Digital Marketing
@@ -22,7 +22,7 @@ and Design Services</h2>
                         <TileItem title="Blogging" />
                         <TileItem title="E-newsletters" />
                         <TileItem title="Social Media Management" />
-                        <TileItem title="Management" />
+                        <TileItem title="Digital Campaign Management" />
                         <TileItem title="Audience Growth" />
                         <TileItem title="Copywriting" />
                         <TileItem title="Marketing Strategy" />

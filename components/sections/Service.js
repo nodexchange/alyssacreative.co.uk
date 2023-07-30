@@ -7,7 +7,7 @@ import ServiceImg from '@/images/services.jpg';
 
 function Service() {
   return (
-    <section className="py-0 bg-acblue">
+    <section id="service" className="py-0 bg-acblue">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid items-stretch gap-y-10 md:grid-cols-2 md:gap-x-20 relative">
           <div className="flex flex-col items-start xl:pl-16 relative py-8">

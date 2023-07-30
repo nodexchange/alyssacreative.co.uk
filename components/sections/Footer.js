@@ -28,19 +28,15 @@ function Footer() {
 
                     <ul className="mt-6 space-y-5">
                         <li>
-                            <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Web Design </a>
+                            <a href="#services" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Digital Marketing </a>
                         </li>
 
                         <li>
-                            <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> App Design </a>
+                            <a href="#services" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Website Management </a>
                         </li>
 
                         <li>
-                            <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Social Media Manage </a>
-                        </li>
-
-                        <li>
-                            <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Market Analysis Project </a>
+                            <a href="#services" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Graphic Design </a>
                         </li>
                     </ul>
                 </div>
@@ -50,15 +46,11 @@ function Footer() {
 
                     <ul className="mt-6 space-y-4">
                         <li>
-                            <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> About Us </a>
+                            <Link href="/about" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> About Us </Link>
                         </li>
 
                         <li>
-                            <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Career </a>
-                        </li>
-
-                        <li>
-                            <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Become Investor </a>
+                            <Link href="/career" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Career </Link>
                         </li>
                     </ul>
                 </div>
@@ -68,15 +60,11 @@ function Footer() {
 
                     <ul className="mt-6 space-y-5">
                         <li>
-                            <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> FAQ </a>
+                            <Link href="/faq" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> FAQ </Link>
                         </li>
 
                         <li>
-                            <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Policy </a>
-                        </li>
-
-                        <li>
-                            <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Business </a>
+                            <Link href="/policy" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Policy </Link>
                         </li>
                     </ul>
                 </div>
@@ -86,11 +74,11 @@ function Footer() {
 
                     <ul className="mt-6 space-y-5">
                         <li>
-                            <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Customer Support </a>
+                            <Link aria-label="Send us an email" href="mailto:hello@alyssacreative.co.uk" target="_blank" title="Support" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Customer Support </Link>
                         </li>
 
                         <li>
-                            <a href="#" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"> Whatsapp </a>
+                            <a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/447582314597" title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-opacity-70 focus:text-blue-600"><Image alt="Chat on WhatsApp" src="/WhatsAppButtonGreenSmall.png" width="320" height="72"></Image> </a>
                         </li>
                     </ul>
                 </div>

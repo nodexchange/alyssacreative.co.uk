@@ -5,7 +5,7 @@ import ClientImg from '@/images/client-service.jpg';
 
 function Client() {
   return (
-    <section className="relative bg-gray-50 mb-36 lg:mb-10 pb-6 lg:pb-0">
+    <section id="client" className="relative bg-gray-50 mb-36 lg:mb-10 pb-6 lg:pb-0">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <nav className="flex flex-col lg:flex-row items-center lg:justify-between h-16 lg:h-20">
                 <div className="mb-5 lg:mb-0 text-center lg:text-left">

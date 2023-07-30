@@ -6,7 +6,7 @@ import ClientImg from '@/images/client-service.jpg';
 
 function About() {
   return (
-    <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
+    <section id="about" className="py-10 bg-gray-50 sm:py-16 lg:py-24">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="grid items-stretch gap-y-10 md:grid-cols-2 md:gap-x-20 relative">
                 <div className="flex flex-wrap lg:gap-8 lg:mt-auto">

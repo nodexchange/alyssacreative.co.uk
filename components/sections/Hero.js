@@ -4,10 +4,10 @@ function Hero() {
   return (
     <div>
         <section className={`py-16 bg-acblue text-center lg:text-left sm:py-16 lg:py-24 lg:bg-hero lg:bg-cover`}>
-            <div className="px-4 mt-16 lg:mt-0 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div className="px-4 mt-14 lg:mt-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
                     <div>
-                        <h1 className="text-2xl font-bold text-white sm:text-4xl lg:text-5xl">
+                        <h1 className="text-2xl font-bold text-white sm:text-4xl lg:text-6xl">
                             Grow Your Business With Ease
                         </h1>
 
