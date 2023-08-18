@@ -7,7 +7,7 @@ export default function Faq() {
     <>
       <NextSeo title="FAQ" canonical="https://alyssacreative.co.uk/faq" />
       <section className="relative pb-20">
-        <div className="flex items-center px-6 py-6 md:px-4 gap-x-yeat">
+        <div className="flex items-center px-6 py-6 md:px-4 gap-x-yeat opacity-0">
           <h1 className="text-5xl uppercase">FAQ</h1>
         </div>
         <div className="grid px-6 gap-x-12 gap-y-4 md:px-4 md:grid-cols-2">

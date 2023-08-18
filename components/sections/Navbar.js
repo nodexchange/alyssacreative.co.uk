@@ -6,13 +6,13 @@ import { Button } from '@components';
 import Link from 'next/link';
 
 const navLinks = [
-  { id: 1, title: 'Home', text:'', href: '/' },
-  { id: 2, title: 'About us', text:'', href: '/about' },
-  { id: 3, title: 'Services', text:'', href: '/services' },
-  { id: 4, title: 'Clients', text:'', href: '/clients' },
-  { id: 5, title: 'Contact', text:'', href: '/contact' },
+  { id: 1, title: 'Home', text: '', href: '/' },
+  { id: 2, title: 'About us', text: '', href: '/about' },
+  { id: 3, title: 'Services', text: '', href: '/services' },
+  { id: 4, title: 'Clients', text: '', href: '/clients' },
+  { id: 5, title: 'Contact', text: '', href: '/contact' },
 ];
-const NavigationLink = ({ href, title, children }) => {
+const NavigationLink = ({ href, title, onClick, children }) => {
   const router = useRouter();
   const isActive = router.pathname === href;
 
@@ -22,12 +22,65 @@ const NavigationLink = ({ href, title, children }) => {
       title={title}
       className={`text-base ${
         isActive ? 'text-acblue-light' : 'text-white'
-      } transition-all duration-200 hover:text-opacity-70`}>
+      } transition-all duration-200 hover:text-opacity-70`}
+      onClick={onClick}>
       {' '}
       {children}{' '}
     </Link>
   );
 };
+
+const MobileMenu = ({ isOpen, toggleMenu }) => (
+  <div
+            className={`flex bg-acblue drop-shadow-xl flex-col mt-[22rem] px-24 py-5 space-y-5   ${
+              isOpen ? 'opacity-100 block' : 'opacity-0 hidden'
+            } duration-1000 ease-in-out lg:drop-shadow-none lg:translate-y-0 lg:opacity-100 lg:space-y-0 lg:py-0  lg:px-0 lg:flex-row lg:mt-0 lg:items-center lg:justify-center lg:space-x-10`}>
+            {navLinks.map((link) => {
+              return (
+                <NavigationLink
+                  key={link.id}
+                  href={link.href}
+                  title={link.title}
+                  onClick={toggleMenu}>
+                  {link.title}
+                </NavigationLink>
+              );
+            })}
+            <Link
+              title="Get Started"
+              href="/contact"
+              legacyBehavior={true}
+              passHref>
+              <Button title={'Get Started'} href={'/contact'} />
+            </Link>
+          </div>
+)
+
+const DesktopMenu = ({ isOpen, toggleMenu }) => (
+  <div
+            className={`flex bg-acblue drop-shadow-xl flex-col mt-[22rem] px-24 py-5 space-y-5   ${
+              isOpen ? 'opacity-100' : 'opacity-0'
+            } duration-1000 ease-in-out lg:drop-shadow-none lg:translate-y-0 lg:opacity-100 lg:space-y-0 lg:py-0  lg:px-0 lg:flex-row lg:mt-0 lg:items-center lg:justify-center lg:space-x-10`}>
+            {navLinks.map((link) => {
+              return (
+                <NavigationLink
+                  key={link.id}
+                  href={link.href}
+                  title={link.title}
+                  onClick={toggleMenu}>
+                  {link.title}
+                </NavigationLink>
+              );
+            })}
+            <Link
+              title="Get Started"
+              href="/contact"
+              legacyBehavior={true}
+              passHref>
+              <Button title={'Get Started'} href={'/contact'} />
+            </Link>
+          </div>
+)
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -70,26 +123,13 @@ function Navbar() {
               />
             </Link>
           </div>
-
-          <div
-            className={`flex bg-acblue drop-shadow-xl flex-col mt-[22rem] px-24 py-5 space-y-5   ${
-              isOpen ? 'opcaity-100' : 'opacity-0'
-            } duration-1000 ease-in-out lg:drop-shadow-none lg:translate-y-0 lg:opacity-100 lg:space-y-0 lg:py-0  lg:px-0 lg:flex-row lg:mt-0 lg:items-center lg:justify-center lg:space-x-10`}>
-            {navLinks.map((link) => {
-              return (
-                <NavigationLink key={link.id} href={link.href} title={link.title}>
-                  {link.title}
-                </NavigationLink>
-              );
-            })}
-            <Link
-              title="Get Started"
-              href="/contact"
-              legacyBehavior={true}
-              passHref>
-              <Button title={'Get Started'} href={'/contact'} />
-            </Link>
+          <div className='hidden md:block'>
+            <DesktopMenu isOpen={isOpen} toggleMenu={toggleMenu} />
           </div>
+          <div className='block md:hidden'>
+            <MobileMenu isOpen={isOpen} toggleMenu={toggleMenu} />
+          </div>
+
 
           <button
             type="button"
@@ -120,9 +160,9 @@ function Navbar() {
       </div>
       {isOpen && (
         <div
-          className={`backdrop-blur-md bg-white/30 fixed w-[100vw] h-[100vh] -z-10 duration-1000 ease-in-out ${
-            isOpen ? 'opcaity-1' : 'opacity-0'
-          }`}></div>
+          className={`backdrop-blur-md bg-white/30 fixed w-[100vw] h-[100vh] -z-10 duration-1000 ease-in-out lg:hidden ${
+            isOpen ? 'opacity-1' : 'opacity-0'
+          }`} onClick={() => setIsOpen(false)}></div>
       )}
     </header>
   );
