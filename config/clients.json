@@ -1,0 +1,39 @@
+{
+  "resources": [
+    {
+      "title": "Pexava",
+      "link": "https://www.pexava.com/",
+      "imageUrl": "/images/clients/pexava.jpg"
+    },
+    {
+      "title": "Daws Hill Vineyard",
+      "link": "https://dawshillvineyard.co.uk/",
+      "imageUrl": "/images/clients/dawshill.jpg"
+    },
+    {
+      "title": "Drayson Technologies",
+      "link": "https://freevolt.tech/",
+      "imageUrl": "/images/clients/drayson.jpg"
+    },
+    {
+      "title": "Logic 4 Training",
+      "link": "https://www.logic4training.co.uk/",
+      "imageUrl": "/images/clients/logic.jpg"
+    },
+    {
+      "title": "Shazazz Costume Jewellery",
+      "link": "https://www.shazazzjewellery.co.uk/",
+      "imageUrl": "/images/clients/shazam.jpg"
+    },
+    {
+      "title": "Su Chef - Sous Vide Start up",
+      "link": "https://www.theguardian.com/lifeandstyle/2014/aug/31/suchef-restaurant-review#:~:text=The%20majority%20of%20the%20food,in%20temperature%2Dcontrolled%20water%20baths.",
+      "imageUrl": "/images/clients/suchef.jpg"
+    },
+    {
+      "title": "Santa Fe Basque Restaurant and Bar",
+      "link": "https://santafebasque.com/",
+      "imageUrl": "/images/clients/basque.jpg"
+    }
+  ]
+}

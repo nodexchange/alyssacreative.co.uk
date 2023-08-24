@@ -1,7 +1,7 @@
 // import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import Hero from '@/sections/Hero';
-// import Client from '@/sections/Client'
+import Client from '@/sections/Client'
 import Services from '@/sections/Services';
 import Service from '@/sections/Service';
 import Testimonial from '@/sections/Testimonial';
@@ -18,8 +18,8 @@ export default function Home() {
       <Service />
       <Services />
       <Testimonial />
+      <Client />
       {/* <Services/> */}
-      {/* <Client/> */}
       {/* <News/> */}
     </>
   );

@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['www.vectorlogo.zone', 'cdn.rareblocks.xyz'],
+    domains: ['www.vectorlogo.zone', 'cdn.rareblocks.xyz', 'via.placeholder.com'],
   }
 }
 
