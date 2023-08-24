@@ -123,10 +123,10 @@ function Navbar() {
               />
             </Link>
           </div>
-          <div className='hidden md:block'>
+          <div className='hidden lg:block'>
             <DesktopMenu isOpen={isOpen} toggleMenu={toggleMenu} />
           </div>
-          <div className='block md:hidden'>
+          <div className='block lg:hidden'>
             <MobileMenu isOpen={isOpen} toggleMenu={toggleMenu} />
           </div>
 

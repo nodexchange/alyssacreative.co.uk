@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-
+import Image from 'next/image';
 // Data
 import data from '@/config/clients.json';
 
@@ -55,7 +55,7 @@ const Carousel = () => {
         <div className="flex justify-between absolute top left w-full h-full">
           <button
             onClick={movePrev}
-            className="hover:bg-acblue/75 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
+            className="hover:bg-acblue/75 text-black w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300 animate-pulse"
             disabled={isDisabled('prev')}
           >
             <svg
@@ -76,7 +76,7 @@ const Carousel = () => {
           </button>
           <button
             onClick={moveNext}
-            className="hover:bg-acblue/75 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
+            className="hover:bg-acblue/75 text-black w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300 animate-pulse"
             disabled={isDisabled('next')}
           >
             <svg
@@ -111,7 +111,9 @@ const Carousel = () => {
                   className="h-full w-full aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
                   style={{ backgroundImage: `url(${resource.imageUrl || ''})` }}
                 >
-                  <img
+                  <Image
+                    width={300}
+                    height={300}
                     src={resource.imageUrl || ''}
                     alt={resource.title}
                     className="w-full aspect-square hidden"
@@ -119,6 +121,7 @@ const Carousel = () => {
                 </a>
                 <a
                   href={resource.link}
+                  target='_blank'
                   className="h-full w-full aspect-square block absolute top-0 left-0 transition-opacity duration-300 opacity-0 hover:opacity-100 bg-acblue/75 z-10"
                 >
                   <h3 className="text-white py-6 px-3 mx-auto text-xl">
