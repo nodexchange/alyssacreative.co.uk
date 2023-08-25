@@ -10,13 +10,25 @@ function generateSiteMap(articles) {
        <loc>https://www.alyssacreative.co.uk/about</loc>
      </url>
      <url>
-       <loc>https://www.alyssacreative.co.uk/services</loc>
+       <loc>https://www.alyssacreative.co.uk/career</loc>
      </url>
      <url>
        <loc>https://www.alyssacreative.co.uk/clients</loc>
      </url>
      <url>
        <loc>https://www.alyssacreative.co.uk/contact</loc>
+     </url>
+     <url>
+       <loc>https://www.alyssacreative.co.uk/faq</loc>
+     </url>
+     <url>
+       <loc>https://www.alyssacreative.co.uk/policy</loc>
+     </url>
+     <url>
+     <loc>https://www.alyssacreative.co.uk/services</loc>
+     </url>
+     <url>
+       <loc>https://www.alyssacreative.co.uk/testimonials</loc>
      </url>
    </urlset>
  `;
