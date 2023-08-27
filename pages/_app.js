@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
               titleTemplate="%s | AS Creative"
               defaultTitle="AS Creative | Digital Marketing and Design Services"
               description="We provide individualised and customised services to you; whether it is providing social media management, social media coaching, photography, or graphic design"
-              canonical="https://alyssacreative.co.uk"
+              canonical="https://www.alyssacreative.co.uk"
               twitter={{
                 handle: "@ascreative",
                 site: "@ascreative",
@@ -20,12 +20,12 @@ export default function App({ Component, pageProps }) {
               openGraph={{
                 type: "website",
                 locale: "en_CA",
-                url: "https://alyssacreative.co.uk",
+                url: "https://www.alyssacreative.co.uk",
                 title: "AS Creative | Digital Marketing and Design Services",
                 description: "We provide individualised and customised services to you; whether it is providing social media management, social media coaching, photography, or graphic design",
                 images: [
                   {
-                    url: "https://alyssacreative.co.uk/images/og.png",
+                    url: "https://www.alyssacreative.co.uk/images/og.png",
                     width: 1200,
                     height: 630,
                     alt: "AS Creative | Digital Marketing and Design Services",

@@ -5,7 +5,7 @@ import { NextSeo } from "next-seo";
 export default function Clients() {
   return (
     <>
-      <NextSeo title="Clients" canonical="https://alyssacreative.co.uk/clients" />
+      <NextSeo title="Clients" canonical="https://www.alyssacreative.co.uk/clients" />
       <section className="relative pb-20">
         <div className="flex items-center px-6 py-6 md:px-4 gap-x-yeat opacity-0">
           <h1 className="text-5xl uppercase">Clients</h1>

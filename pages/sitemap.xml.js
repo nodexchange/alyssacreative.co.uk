@@ -2,33 +2,33 @@ function generateSiteMap(articles) {
   return `<?xml version="1.0" encoding="UTF-8"?>
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <url>
-       <loc>https://alyssacreative.co.uk</loc>
+       <loc>https://www.alyssacreative.co.uk</loc>
        <changefreq>monthly</changefreq>
       <priority>1.0</priority>
      </url>
      <url>
-       <loc>https://alyssacreative.co.uk/about</loc>
+       <loc>https://www.alyssacreative.co.uk/about</loc>
      </url>
      <url>
-       <loc>https://alyssacreative.co.uk/career</loc>
+       <loc>https://www.alyssacreative.co.uk/career</loc>
      </url>
      <url>
-       <loc>https://alyssacreative.co.uk/clients</loc>
+       <loc>https://www.alyssacreative.co.uk/clients</loc>
      </url>
      <url>
-       <loc>https://alyssacreative.co.uk/contact</loc>
+       <loc>https://www.alyssacreative.co.uk/contact</loc>
      </url>
      <url>
-       <loc>https://alyssacreative.co.uk/faq</loc>
+       <loc>https://www.alyssacreative.co.uk/faq</loc>
      </url>
      <url>
-       <loc>https://alyssacreative.co.uk/policy</loc>
+       <loc>https://www.alyssacreative.co.uk/policy</loc>
      </url>
      <url>
-     <loc>https://alyssacreative.co.uk/services</loc>
+     <loc>https://www.alyssacreative.co.uk/services</loc>
      </url>
      <url>
-       <loc>https://alyssacreative.co.uk/testimonials</loc>
+       <loc>https://www.alyssacreative.co.uk/testimonials</loc>
      </url>
    </urlset>
  `;

@@ -5,7 +5,7 @@ import ServicesSection from '@/sections/Services';
 export default function Services() {
   return (
     <>
-      <NextSeo title="Services" canonical="https://alyssacreative.co.uk/services" />
+      <NextSeo title="Services" canonical="https://www.alyssacreative.co.uk/services" />
       <section className="relative pb-20">
         <div className="flex items-center px-6 py-6 md:px-4 gap-x-yeat opacity-0">
           <h1 className="text-5xl uppercase">Services</h1>
